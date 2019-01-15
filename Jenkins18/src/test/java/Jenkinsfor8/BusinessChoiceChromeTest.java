@@ -17,7 +17,7 @@ import java.io.File;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class BusinessChoiceChrom {
+public class BusinessChoiceChromeTest {
 	
 	static WebDriver driver;
 	@Test(dataProvider= "URLsfromCorps")

@@ -19,7 +19,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class BusinessChoiceFireFox {
+public class BusinessChoiceFireFoxTest {
 
 	
 	static WebDriver driver;

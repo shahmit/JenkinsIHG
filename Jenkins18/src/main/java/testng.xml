@@ -3,8 +3,8 @@
 <suite name="Suite" parallel="classes" thread-count="3">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="MavenJenkins.BusinessChoiceChromeTest"/>
-      <class name="MavenJenkins.BusinessChoiceFFTest"/>
+      <class name="Jenkinsfor8.BusinessChoiceChromeTest"/>
+      <class name="Jenkinsfor8.BusinessChoiceFireFoxTest"/>
       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
