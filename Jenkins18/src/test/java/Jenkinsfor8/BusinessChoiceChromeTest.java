@@ -22,11 +22,11 @@ public class BusinessChoiceChromeTest {
 	static WebDriver driver;
 	@Test(dataProvider= "URLsfromCorps")
 	public void f(String url) {
-		  
+		//Setting the System Property  
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Browsers\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.manage().window().maximize();
-		System.out.println("Hello, how are you today?");
+		System.out.println("Hi, how are you today?");
 		//Lunch the URL
 		String url1 = "https://ecom:ec0m@staging.www" + url;
 		try {
